@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="OtpApp.App">
+
+    <!-- Application-level resources, shared configurations, styles, etc. -->
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- Example: Defining global colors -->
+            <Color x:Key="PrimaryColor">#3498db</Color>
+            <Color x:Key="SecondaryColor">#2ecc71</Color>
+
+            <!-- Example: Defining global styles -->
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="CornerRadius" Value="10" />
+                <Setter Property="HeightRequest" Value="50" />
+            </Style>
+
+            <!-- Example: Defining global fonts -->
+            <Font x:Key="TitleFont" Family="Arial" Size="24" />
+            <Font x:Key="BodyFont" Family="Arial" Size="14" />
+
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
+

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{FD4F1C8D-DAFE-4AA5-A53E-200551603207}"
+	ProjectSection(SolutionItems) = preProject
+		AppStyles.xaml = AppStyles.xaml
+		Colors.xaml = Colors.xaml
+		images.png = images.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{921EDB3E-06CB-4FB3-BB83-92AD905C93A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{0617C79B-F1D3-4437-97E2-161C5EC57234}"
+	ProjectSection(SolutionItems) = preProject
+		App.xaml = App.xaml
+		App.xaml.cs = App.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainPage", "MainPage", "{77FB9D8F-DCFE-4602-85C2-472F3B99197D}"
+	ProjectSection(SolutionItems) = preProject
+		MainPage.xaml = MainPage.xaml
+		MainPage.xaml.cs = MainPage.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MauiProgram", "MauiProgram", "{77DD4B52-C7B4-436D-9118-B65A33BEC18D}"
+	ProjectSection(SolutionItems) = preProject
+		MauiProgram.cs = MauiProgram.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{958BCED4-9E8D-4494-9FE7-09A77E09462B}"
+	ProjectSection(SolutionItems) = preProject
+		ISmsService.cs = ISmsService.cs
+		..\..\fff\SmsService.cs = ..\..\fff\SmsService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iOS", "iOS", "{2F9687E3-31B4-4EF3-BF29-159C9941B8D4}"
+	ProjectSection(SolutionItems) = preProject
+		AppDelegate.cs = AppDelegate.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F9687E3-31B4-4EF3-BF29-159C9941B8D4} = {921EDB3E-06CB-4FB3-BB83-92AD905C93A6}
+	EndGlobalSection
+EndGlobal
